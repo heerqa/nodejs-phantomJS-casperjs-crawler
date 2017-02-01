@@ -1,0 +1,321 @@
+
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <!-- Basic Gosquared tracking code -->
+    <script>
+		  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+		  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+		  d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+		  insertBefore(d,q)}(window,document,'script','_gs');
+
+		  _gs('GSN-999999-N');
+		</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Setlr - Connect Seamlessly To Human Community Powered Translation</title>
+    <meta name="description" content="Website, email, photo and document translation made simple">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Load Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <!-- Load Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Load Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--- for shagufta local only -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--  -->
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Setlr</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="btn btn-nav"><i class="fa fa-play-circle" aria-hidden="true"></i> How it works</a></li>
+                <li><a href="/languages" class="btn btn-nav">Languages & Pricing</a></li>
+                <li><a href="/become-a-setlr-translator.html" class="btn btn-nav">Get paid to translate</a></li>
+                <li><div class="center"><button type="button" class="btn btn-nav" data-toggle="modal" data-target="#contactModal">Contact</button></div></li>
+                <li><div class="center"><a href="/my-dashboard" class="btn btn-nav outline">My Dashboard</a></div></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!-- Contact Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form class="form-horizontal" role="form" method="post" action="contact.php">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Contact Our Team</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="name" class="col-sm-2 control-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="col-sm-2 control-label">Subject</label>
+                        <div class="col-sm-10">
+                            <select class="form-control" name="subject" required>
+                                <option value="issue">Report an issue with a translation</option>
+                                <option value="bug">Report a bug/website problem</option>
+                                <option value="ios">I need help with the iOS app</option>
+                                <option value="android">I need help with the Android app</option>
+                                <option value="payment">I have a payment issue</option>
+                                <option value="question">I have a question</option>
+                                <option value="recipe">I have a great cocktail recipe</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="col-sm-2 control-label">Message</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="4" name="message" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer" onchange="validateSpam()">
+                        </div>
+
+                    </div>
+                    <div id="spamerror" class="alert alert-danger" role="alert" style ="display: none;">
+                        <p>Your anti-spam is incorrect<p>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Jumbotron -->
+<div class="jumbotron">
+    <div class="container">
+        <h1>Communicate without borders</h1>
+        <h2>Break down the language barrier with high speed, on-demand community translation.</h2>
+        <p><a class="btn btn-primary btn-lg" id="jumbo-cta" href="/add-a-new-project" role="button">Send words</a></p>
+
+    </div>
+    <div class="learn-cta"><a href="#keep-your-conversation">Learn more about what we do <i class="fa fa-chevron-down"></i></a></div>
+</div>
+<!-- /.Jumbotron -->
+
+<section id="keep-your-conversation">
+    <div class="container">
+        <img id="conversation" src="img/setlr-translation-platform.png" alt="Cross border human translation platform" />
+        <h1>Empower your global relationships.</h1>
+        <p>Your relationships don't end at the border. Use the power of community translation to communicate fluently like a local across borders.</p>
+    </div>
+</section>
+<section id="seamless">
+    <div class="container">
+        <img id="go-seamless" src="img/setlr-seamless-community-translation.png" alt="Make human translation seamless with Setlr" />
+        <h1>Go Seamless.</h1>
+        <p>Need to translate an email? Email it. Need to translate a document? Take a photo. Need to translate your blog content? Connect your site to the community to seamlessly translate content as you publish it. We make it super simple to build translation into your <strong>existing workflow</strong> and send us words completely <strong>on-demand.</strong></p>
+    </div>
+</section>
+<section id="people-power">
+    <div class="container">
+        <img id="people-powered" src="img/setlr-human-community-translation.png" alt="Human Community Translation" />
+        <h1>Harness the power of people.</h1>
+        <p>With over half the world's population being bilingual, there are millions of skilled translators out there just waiting to take your words to amazing new places. Don't have a bilingual crowd? Don't worry - <strong>we bring the crowd to you.</strong></p>
+    </div>
+</section>
+<section id="translation-localization">
+    <div class="container">
+        <img id="localization" src="img/setlr-translation-localization.png" alt="Setlr makes translation localization simple" />
+        <h1>Culturalization included.</h1>
+        <p>Quality translation doesn't stop at the language pair. Our Relevance Engine works like a set of gears to match your words with <strong>"culturally embedded"</strong> translators to deliver fluent, culturally correct and local-sounding translation.</p>
+    </div>
+</section>
+<section id="easy-ways">
+    <h1>Easy ways to send us words:</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <i class="fa fa-3x fa-cloud-upload" aria-hidden="true"></i>
+                <h2>Classic</h2>
+                Type, paste or upload files
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <i class="fa fa-3x fa-mobile" aria-hidden="true"></i>
+                <h2>Photo</h2>
+                Snap any text on your phone
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <i class="fa fa-3x fa-envelope" aria-hidden="true"></i>
+                <h2>Email</h2>
+                Send an email
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <i class="fa fa-3x fa-magic" aria-hidden="true"></i>
+                <h2>Automatic</h2>
+                Integrate seamlessly
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bottom call to action -->
+<section id="bottom-cta">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <h1>Try it risk free</h1>
+                <p>From only $0.06 / €0.05 / £0.04 per word.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <a class="btn btn-primary btn-lg" href="/add-a-new-project" role="button">Send us words</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 center">
+            <img src="img/setlr-logo-white.png" id="setlr-logo-white">
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <h1>Company</h1>
+            <ul>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="/guarantee.html">Our Quality Guarantee</a></li>
+                <li><a href="/legal.html">Legal</a></li>
+                <li><a href="/careers.html">Careers</a></li>
+                <li><a href="/press.html">Press</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <h1>Connect</h1>
+            <ul>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/mobile.html">Get the FREE app</a></li>
+                <li><div class="fb-like" data-href="https://www.facebook.com/setlr/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li>
+                <li><a class="twitter-follow-button" href="https://twitter.com/Team_Setlr">Follow @Team_Setlr</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <h1>Translators</h1>
+            <ul>
+                <li><a href="/become-a-setlr-translator.html">Become a Translator</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row center copyright">
+        &copy; 2016 Setlr Ltd - <a class="blue" title="hello@setlr.com" href="mailto:hello@setlr.com">hello@setlr.com</a>
+        <p>Made outside the <i class="fa fa-building-o"></i>
+        </p>
+    </div>
+</footer>
+
+<!-- Facebook like/share button -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=863664443705058";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+<!-- Twitter follow button -->
+<script>window.twttr = (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+          if (d.getElementById(id)) return t;
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+
+          t._e = [];
+          t.ready = function(f) {
+            t._e.push(f);
+          };
+
+          return t;
+        }(document, "script", "twitter-wjs"));
+        </script>
+
+<script>
+function validateSpam(){
+
+    $("#spamerror").hide();
+      if($("#human").val()!=5){
+     $("#spamerror").show();
+
+}
+}
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Google Analytics tracking code. -->
+<script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-99999999-1','auto');ga('send','pageview');
+        </script>
+</body>
+</html>

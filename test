@@ -1,0 +1,28 @@
+there was issue with Zoho, so could not test agreement load test
+
+so
+I ran load test
+for
+creating company, contact, folder and tag in one test
+
+for 20 users with time interval of 10 sec between each user
+and
+average response time was 25 sec
+and there was no error
+
+I running the test now for 30 users
+and then ran for 30 user
+I see the average response time has increased  to 50 sec
+but there are errors while user trying to create contacts
+
+as per reports
+ for 30 users
+so
+i am analysing the the exact request which is failing
+
+yes I am looking give me 10 mins
+there is
+Tom, this isteam effort
+Tom jut now we finished the test
+
+

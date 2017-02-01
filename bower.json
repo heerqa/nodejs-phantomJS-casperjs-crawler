@@ -1,0 +1,26 @@
+{
+  "name": "wltool",
+  "description": "amazon wishlist crawler",
+  "main": "index.js",
+  "authors": [
+    "Shagufta Naz"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "phantomjs",
+    "casperjs"
+  ],
+  "homepage": "https://github.com/Purse/purse_wishlist_tool",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}
